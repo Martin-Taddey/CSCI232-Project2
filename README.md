@@ -1,14 +1,15 @@
 Final Project - CSCI 232 - Suyeon Lee - Martin Taddey - May 22, 2022
 
 # Project Writeup:
-* 1. Information about your data 
-	*a. Why did you choose the data set you working with? 
+* 1. Information about your data
+
+	* a. Why did you choose the data set you working with? 
 		We chose this dataset because car accidents are common in NYC. We believe it is important to analyze the data to understand what measures can be taken to reduce car accidents.
  
-	*b. What was your dataset about? What were some of the important columns in your data and why are they important? 
+	* b. What was your dataset about? What were some of the important columns in your data and why are they important? 
 		Our dataset details the information of motor vehicle collisions in New York City from 2016 to 2021. One of the important columns is “collision id,” as it assigns an unique ID to each accident that occurred. Other important columns are crash date and number of pedestrians, cyclists, motorists injured and killed. These columns show the number of injuries and fatalities from car accidents. At the same time, they show why it is important to prevent car accidents from happening.
 
-	*c. What kind of things did you want to explore about your data? 
+	* c. What kind of things did you want to explore about your data? 
 		First, we wanted to explore the dataset to understand why, when, and how the motor vehicle collisions are happening. Then, we analyzed the data obtained to identify the dates and places where they occurred the most, and the amount of people who got injured or killed classified by transportation, among other things.
 
 * 2. For each of the questions you asked, please answer the following: Please also write the question text. If you had multiple authors, kindly indicate which author answered which questions. 
