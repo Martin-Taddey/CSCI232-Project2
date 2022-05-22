@@ -1,8 +1,4 @@
-Lee, Suyeon
-Taddey, Martin
-CSCI 232
-Avshalom, Ariel
-May 22, 2022
+Final Project - CSCI 232 - Suyeon Lee - Martin Taddey - May 22, 2022
 
 # Project Writeup:
 * 1. Information about your data 
