@@ -64,9 +64,9 @@ In order to create the questions, we met and had a brainstorm session. There is 
 For this project we put into practice our knowledge of extracting a dataset from the internet and importing it on psql. To extract the information needed from the database, we used different SQL tools. Our project can be improved by choosing a bigger timeframe and using a system that can handle larger data. We are happy we were able to work on a dataset of our choice.
 
 Issues we faced:
-•	One issue we faced was that the database was extremely large. Excel wouldn’t load all the information, so we had to divide it in two parts to work with it. The time frame chosen was (01/01/2016 - 12/31/2021). 
-•	One of our NON-NULL constraints failed one time because there was one line in a column that was empty when it wasn’t supposed to be. Clearly it was an omission on the part of the person who wrote down the report.
-•	There was information missing on the dataset. For example, sometimes boroughs were not identified. This is clearly a mistake of the person writing down the reports.
+* One issue we faced was that the database was extremely large. Excel wouldn’t load all the information, so we had to divide it in two parts to work with it. The time frame chosen was (01/01/2016 - 12/31/2021). 
+* One of our NON-NULL constraints failed one time because there was one line in a column that was empty when it wasn’t supposed to be. Clearly it was an omission on the part of the person who wrote down the report.
+* There was information missing on the dataset. For example, sometimes boroughs were not identified. This is clearly a mistake of the person writing down the reports.
 
 * **4. If you had unlimited time and resources (i.e. you can collect your own dataset and use tools other than SQL) what project would you pursue?**
 
