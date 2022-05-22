@@ -23,37 +23,37 @@ Final Project - CSCI 232 - Suyeon Lee - Martin Taddey - May 22, 2022
 
 In order to create the questions, we met and had a brainstorm session. There is no single author. In order to find the answer to the questions, we divided the data set in 2. Suyeon worked on the dataset from 2016 to 2018 and Martin worked on the dataset from 2019 to 2021. This way we both had to work on creating queries for every question, while both working in tandem. Finally, we had another meeting where we gathered all the information and proceeded to answer the following questions together.
  
-**1. Has the number of car accidents increased or decreased from 2016 to 2021?**
+1. Has the number of car accidents increased or decreased from 2016 to 2021?
 	* a) We wanted to learn if the number of motor vehicle collisions increased or decreased from 2016 to 2021.
 	* b) Yes, we succeeded. We learned that the numbers of accidents have been decreasing in recent years, with a pronounced fall in 2020 and 2021.
 	* c) We used the table location_time. Aggregate function COUNT().
 
-**2. What is the number one combination of factors that caused the motor vehicle collisions during the years analyzed?**
+2. What is the number one combination of factors that caused the motor vehicle collisions during the years analyzed?
 	* a) We wanted to learn which combination of factors caused the most motor vehicle collisions. This information could be useful to the government, as they could find a solution to these factors.
 	* b) Yes, we succeeded. We learned that of the specified reasons, the number one reason why motor vehicle collisions occurred in the years analyzed is the motorist driver inattention or distraction.
 	* c) Inner join between the tables contributing_factor and location_time. Aggregate function COUNT().
 
-**3. Who suffered the most number of casualties? Pedestrians, cyclists, or motorists?**
+3. Who suffered the most number of casualties? Pedestrians, cyclists, or motorists?
 	* a) We wanted to learn about who suffered the most number of casualties.
 	* b) Yes, we succeeded. As expected, we learned that pedestrians suffered the most number of deaths from 2016 and 2019, but in 2020 and 2021 the motorists experienced slightly more deaths than pedestrians. From this query we learned that cyclists experienced the least amount of accidents.
 	* c) Inner join between the tables number_victims and location_time. Aggregate function SUM() and functions TO_CHAR and DATE_TRUNC.
 
-**4. Which group had the most number of injured people? Pedestrians, cyclists, or motorists?**
+4. Which group had the most number of injured people? Pedestrians, cyclists, or motorists?
 	* a) We wanted to know which group had the highest number of injured people. 
 	* b) Yes, we succeeded. Surprisingly, we learned that the motorist group suffered the most number of injured people during the years analyzed.
 	* c) We used the inner join number_victims between location_time. Aggregate function SUM() and functions TO_CHAR and DATE_TRUNC. 
 
-**5. During what months of the year do most accident occur?**
+5. During what months of the year do most accident occur?
 	* a) We wanted to find out if there was a specific time of the year where accidents were more common.
 	* b) Yes, we succeeded. We learned that May and June are usually the months where the most motor vehicle collisions happen every year.
 	* c) We used the table location_time. Aggregate function COUNT(), and functions TO_CHAR and DATE_TRUNC.
     
-**6. What is the number one combination of vehicle types involved in motor vehicle collisions?**
+6. What is the number one combination of vehicle types involved in motor vehicle collisions?
 	* a) We wanted to learn what was the combination of motor vehicles most commonly involved in collisions.
 	* b) We learned that the most number of motor vehicle collisions happened when a single sedan was involved, followed by two Sedan cars involved, and then when station wagon/sport utility vehicles were involved.
 	* c) Inner join between the tables vehicle_type and location_time. Aggregate function COUNT().
 
-**7. Which borough has the highest number of motor vehicles collisions?**
+7. Which borough has the highest number of motor vehicles collisions?
 	* a) We wanted to see if the number of car accidents are similar or drastically different between different boroughs. 
 	* b) Yes, we succeeded. We learned that Brooklyn has the highest number of accidents among the five boroughs. However, because there were many rows that missed the borough information, it is unclear where those accidents occurred. 
 	* c) We used the table location_time. Aggregate function COUNT(). Functions TO_CHAR and DATE_TRUNC.
