@@ -58,6 +58,7 @@ In order to create the questions, we met and had a brainstorm session. There is 
 	* b) Yes, we succeeded. We learned that Brooklyn has the highest number of accidents among the five boroughs. However, because there were many rows that missed the borough information, it is unclear where those accidents occurred. 
 	* c) We used the table location_time. Aggregate function COUNT(). Functions TO_CHAR and DATE_TRUNC.
 
+
 3. What if anything, did the project teach you? Do you have any suggestions to improve this project? What issues did you face when trying to answer your questions/copying the data (or any other issues)?
 
 For this project we put into practice our knowledge of extracting a dataset from the internet and importing it on psql. To extract the information needed from the database, we used different SQL tools. Our project can be improved by choosing a bigger timeframe and using a system that can handle larger data. We are happy we were able to work on a dataset of our choice.
