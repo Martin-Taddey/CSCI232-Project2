@@ -59,7 +59,7 @@ In order to create the questions, we met and had a brainstorm session. There is 
 	* c) We used the table location_time. Aggregate function COUNT(). Functions TO_CHAR and DATE_TRUNC.
 
 
-3. What if anything, did the project teach you? Do you have any suggestions to improve this project? What issues did you face when trying to answer your questions/copying the data (or any other issues)?
+	3. What if anything, did the project teach you? Do you have any suggestions to improve this project? What issues did you face when trying to answer your questions/copying the data (or any other issues)?
 
 For this project we put into practice our knowledge of extracting a dataset from the internet and importing it on psql. To extract the information needed from the database, we used different SQL tools. Our project can be improved by choosing a bigger timeframe and using a system that can handle larger data. We are happy we were able to work on a dataset of our choice.
 
@@ -68,13 +68,13 @@ Issues we faced:
 •	One of our NON-NULL constraints failed one time because there was one line in a column that was empty when it wasn’t supposed to be. Clearly it was an omission on the part of the person who wrote down the report.
 •	There was information missing on the dataset. For example, sometimes boroughs were not identified. This is clearly a mistake of the person writing down the reports.
 
-4. If you had unlimited time and resources (i.e. you can collect your own dataset and use tools other than SQL) what project would you pursue?
+	4. If you had unlimited time and resources (i.e. you can collect your own dataset and use tools other than SQL) what project would you pursue?
 
 Suyeon: I would work with people who collects data about the car accidents because I would like to expand on this database and project. I would like to know the severity of the person’s injury and the exact reason for it. For example, the injury or death could have been from the fire that was created from the car accident. It would also be interesting to collect the information of the driver, for example, different age groups, gender, driver experience, and mental health problems. This information could be used to see if there are any relationships between the driver and the accident. 
 
 Martin: I think having unlimited time and resources is not something realistic. I rather focus on things I could actually do. There is a large population of homeless people in New York. I would work with social work researchers to assess the homeless population and to determine the services that they need. Having all this information in a database could be important on understanding and finding a solution to their problems. A comprehensive assessment would assist policy makers in developing the services and solutions needed.
 
-5. Did you enjoy this class? What did you like? What did you dislike? Do you have any advice for improvements or other suggestions? If you have multiple authors, please separate by author)
+	5. Did you enjoy this class? What did you like? What did you dislike? Do you have any advice for improvements or other suggestions? If you have multiple authors, please separate by author)
 
 Martin: I’m happy I took this class. I enjoyed when we had to work with different tables and make complex queries. My advice is to review the homework more often, ideally, during the following class it’s due. This way we can learn from our previous mistakes.
 
