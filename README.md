@@ -79,4 +79,4 @@ Martin: I’m happy I took this class. I enjoyed when we had to work with differ
 
 Suyeon: Yes, I enjoyed the class. I liked that we learned about the different functions of postgres and how to design a database on Figma. I wish we could have more practice. 
 
-[Link to Dataset] (https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/data)
+[Link to Dataset](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/data)
