@@ -1,7 +1,7 @@
 Final Project - CSCI 232 - Suyeon Lee - Martin Taddey - May 22, 2022
 
 # Project Writeup:
-* 1. Information about your data
+* **1. Information about your data**
 
 	* a. Why did you choose the data set you working with?
 
