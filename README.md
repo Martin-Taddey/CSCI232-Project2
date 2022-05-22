@@ -3,26 +3,30 @@ Final Project - CSCI 232 - Suyeon Lee - Martin Taddey - May 22, 2022
 # Project Writeup:
 * 1. Information about your data
 
-	* a. Why did you choose the data set you working with? 
+	* a. Why did you choose the data set you working with?
+
 		We chose this dataset because car accidents are common in NYC. We believe it is important to analyze the data to understand what measures can be taken to reduce car accidents.
  
-	* b. What was your dataset about? What were some of the important columns in your data and why are they important? 
+	* b. What was your dataset about?
+
+		What were some of the important columns in your data and why are they important? 
 		Our dataset details the information of motor vehicle collisions in New York City from 2016 to 2021. One of the important columns is “collision id,” as it assigns an unique ID to each accident that occurred. Other important columns are crash date and number of pedestrians, cyclists, motorists injured and killed. These columns show the number of injuries and fatalities from car accidents. At the same time, they show why it is important to prevent car accidents from happening.
 
 	* c. What kind of things did you want to explore about your data? 
+
 		First, we wanted to explore the dataset to understand why, when, and how the motor vehicle collisions are happening. Then, we analyzed the data obtained to identify the dates and places where they occurred the most, and the amount of people who got injured or killed classified by transportation, among other things.
 
 * 2. For each of the questions you asked, please answer the following: Please also write the question text. If you had multiple authors, kindly indicate which author answered which questions. 
-a. Why did you ask this question? Was there any information you wanted to learn? 
-b. Did you succeed in answering the question? If you did succeed, what did you learn? If you weren’t successful, can you propose a method which might help solve the question (i.e. different data, or using a different tool than SQL etc.)?
-c. Which SQL tool(s) did you use to solve the question (i.e. aggregates, joins, cases etc.)? 
+	* a. Why did you ask this question? Was there any information you wanted to learn? 
+	* b. Did you succeed in answering the question? If you did succeed, what did you learn? If you weren’t successful, can you propose a method which might help solve the question (i.e. different data, or using a different tool than SQL etc.)?
+	* c. Which SQL tool(s) did you use to solve the question (i.e. aggregates, joins, cases etc.)? 
 
 In order to create the questions, we met and had a brainstorm session. There is no single author. In order to find the answer to the questions, we divided the data set in 2. Suyeon worked on the dataset from 2016 to 2018 and Martin worked on the dataset from 2019 to 2021. This way we both had to work on creating queries for every question, while both learning together. Finally, we had another meeting where we gathered all the information and proceeded to answer the following questions together.
  
 1. Has the number of car accidents increased or decreased from 2016 to 2021?
-a)	We wanted to learn if the number of motor vehicle collisions increased or decreased from 2016 to 2021.
-b)	Yes, we succeeded. We learned that the numbers of accidents have been decreasing in recent years, with a pronounced fall in 2020 and 2021.
-c)	We used the table location_time. Aggregate function COUNT().
+	* a) We wanted to learn if the number of motor vehicle collisions increased or decreased from 2016 to 2021.
+	* b) Yes, we succeeded. We learned that the numbers of accidents have been decreasing in recent years, with a pronounced fall in 2020 and 2021.
+	* c) We used the table location_time. Aggregate function COUNT().
 
 2. What is the number one combination of factors that caused the motor vehicle collisions during the years analyzed?
 a)	We wanted to learn which combination of factors caused the most motor vehicle collisions. This information could be useful to the government, as they could find a solution to these factors.
